@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2630.282 336 23.721 17">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: 0.5px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_96" data-name="Group 96" transform="translate(2603 83)">
+    <path id="innogy_picto_calendar-date" class="cls-1" d="M23.128,25.489a.593.593,0,0,0,.593-.593V14.222a.99.99,0,0,0-.989-.988h-2.57V12.64a.593.593,0,0,0-1.186,0v.593H17.791V12.64a.593.593,0,0,0-1.186,0v.593H7.116V12.64a.593.593,0,1,0-1.186,0v.593H4.744V12.64a.593.593,0,0,0-1.186,0v.593H.989A.989.989,0,0,0,0,14.222V28.059a.989.989,0,0,0,.988.988H23.128a.593.593,0,1,0,0-1.186H1.186V14.419H3.558v.593a.593.593,0,1,0,1.186,0v-.593H5.93v.593a.593.593,0,1,0,1.186,0v-.593h9.488v.593a.593.593,0,0,0,1.186,0v-.593h1.186v.593a.593.593,0,1,0,1.186,0v-.593h2.372V24.9a.593.593,0,0,0,.593.593Z" transform="translate(27.281 240.953)"/>
+    <g id="Group_27" data-name="Group 27" transform="translate(33.092 258.376)">
+      <g id="Rectangle_64" data-name="Rectangle 64" class="cls-2" transform="translate(0 0)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_71" data-name="Rectangle 71" class="cls-2" transform="translate(0 3.81)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_65" data-name="Rectangle 65" class="cls-3" transform="translate(3.175 0)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_70" data-name="Rectangle 70" class="cls-2" transform="translate(3.175 3.81)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_66" data-name="Rectangle 66" class="cls-2" transform="translate(6.35 0)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_69" data-name="Rectangle 69" class="cls-2" transform="translate(6.35 3.81)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_67" data-name="Rectangle 67" class="cls-2" transform="translate(9.524 0)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+      <g id="Rectangle_68" data-name="Rectangle 68" class="cls-2" transform="translate(9.524 3.81)">
+        <rect class="cls-4" width="2.54" height="2.54" rx="1"/>
+        <rect class="cls-5" x="0.25" y="0.25" width="2.04" height="2.04" rx="0.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

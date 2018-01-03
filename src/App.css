@@ -1,0 +1,382 @@
+h1,h2,h3,h4,p{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 24px;
+}
+
+li{
+  list-style-type: none;
+  padding: 5px;
+  background-image: url(./img/calender-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center left 10px;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #68BE68;
+  padding: 5px;
+  color: white;
+}
+
+.App-footer {
+  background-color: #68BE68;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-title {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.inactive{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.banner{
+  width: 100%;
+  height: 324px;
+  background-image: url(./img/default-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.banner-details{
+  text-align: left;
+  margin-left: 4em;
+}
+
+.user-details{
+  background-image: url(./img/user-image.png);
+  background-repeat: no-repeat;
+  background-size: 56px;
+  background-position: center left;
+  padding: 19px;
+  padding-left: 67px;
+  margin-bottom: 10px;
+}
+
+.user-name{
+  font-weight: bold;
+}
+
+.user-team{
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.company-name{
+  font-size: 45px;
+}
+
+ul{
+  margin-top: 0px;
+}
+
+.date{
+  margin-left: 20px;
+}
+
+.date-select, .date-list{
+  width: 205px;
+  background-color: #393939;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.date-list{
+  position: absolute;
+}
+
+.date-select{
+  background-image: url(./img/calender-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 28.72px;
+  background-position: center left 10px;
+  cursor: pointer;
+}
+
+.selected-date{
+  background-image: url(./img/calender-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center left 10px;
+  padding-left: 47px;
+}
+
+.dashboard{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-header{
+  width: 960px;
+  display: flex;
+  padding: 20px 10px;
+}
+
+.dashboard-date{
+  margin-left: auto;
+  font-size: 24px;
+  color: #68BE68;
+}
+
+.dashboard-cards{
+  display: flex;
+  width: 960px;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(25.1% - 5px);
+  height: 235px;
+  background-color: #EFF0F6;
+  color: #393939;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: 55px;
+  background-position: center top 40px;
+}
+
+.card:nth-child(2n+0) {
+  background-color: #68BE68;
+  color: white;
+}
+
+.card-title{
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.card-info{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#banana_taste{
+  width: calc(50% - 5px);
+  background-color: #393939;
+  color: white;
+  margin-right: 0px;
+}
+
+#customer_satisfaction{
+  background-image: url(./img/customer-satisfaction-icon.svg);
+  background-size: 35px;
+}
+
+#cust_satisfaction_target{
+  background-image: url(./img/cust-satisfaction-target.svg);
+  background-size: 65px;
+}
+
+#banana_deliveries{
+  background-image: url(./img/banana-deliveries.svg);
+}
+
+#target_banana_deliveries{
+  background-image: url(./img/target-banana-deliveries.svg);
+}
+
+#data_quality{
+  background-image: url(./img/data-quality.svg);
+  background-size: 85px;
+}
+
+#data_quality_target{
+  background-image: url(./img/data-quality-target.svg);
+  background-size: 35px;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner{
+    justify-content: center
+  }
+  .banner-details{
+    text-align: center;
+    margin-left: 0;
+  }
+  .user-details{
+    background-position: center left 54px;
+  }
+  .selected-date{
+    background-position: center left 60px;
+    padding-left: 37px;
+    background-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-cards {
+    width: 60%;
+  }
+
+  .card{
+    height: 140px;
+    width: calc(33.3% - 5px);
+    background-position: center top 20px;
+  }
+
+  .card-title{
+    font-size: 12px;
+  }
+
+  .dashboard-header{
+    width: 60%;
+    align-items: center;
+  }
+
+  .title{
+    font-size: 16px;
+    margin-top: 21px;
+  }
+
+  .dashboard-date{
+    margin: 20px 0 0 0;
+    margin-left: auto;
+    font-size: 16px;
+  }
+
+  .date-select, .date-list{
+    flex: 1 0 100%;
+    background-color: #393939;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .date{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  #banana_taste{
+    width: calc(100% - 5px);
+    order: -1;
+  }
+
+  #customer_satisfaction{
+    background-size: 25px;
+  }
+
+  #cust_satisfaction_target{
+    background-size: 45px;
+  }
+
+  #banana_deliveries{
+    background-size: 30px;
+  }
+
+  #target_banana_deliveries{
+    background-size: 30px;
+  }
+
+  #data_quality{
+    background-size: 45px;
+  }
+
+  #data_quality_target{
+    background-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner{
+    width: 100%;
+    height: 200px;
+  }
+
+  .company-name {
+    font-size: 30px;
+  }
+
+  .user-details{
+    background-position: center left 6px;
+    background-size: 56px;
+  }
+
+  .selected-date {
+    background-position: center left 20px;
+    background-size: 21px;
+    font-size: 12px;
+  }
+
+  .dashboard-header{
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+
+  .title{
+    display: none;
+  }
+
+  .date{
+    margin: 0;
+  }
+
+  .date-select, .date-list{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .dashboard-date{
+    display: none;
+  }
+
+  .dashboard-cards {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .card{
+    height: 100px;
+  }
+
+  .card-title {
+      font-size: 10px;
+  }
+
+  .card-info {
+    font-size: 16px;
+  }
+}

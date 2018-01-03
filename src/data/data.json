@@ -1,0 +1,107 @@
+{
+  "company_name": "Banana Corp",
+  "user": "Alun Williams",
+  "team": "Perfect Peelers",
+  "company_data": [
+    {
+      "date": "04-Sep-2017",
+      "customer_satisfaction": 4.6,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "poor",
+      "banana_deliveries": 17,
+      "target_banana_deliveries": 20,
+      "data_quality": 52,
+      "data_quality_target": 60
+    },
+    {
+      "date": "11-Sep-2017",
+      "customer_satisfaction": 4.3,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "very poor",
+      "banana_deliveries": 22,
+      "target_banana_deliveries": 20,
+      "data_quality": 63,
+      "data_quality_target": 61
+    },
+    {
+      "date": "18-Sep-2017",
+      "customer_satisfaction": 3.2,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "ok",
+      "banana_deliveries": 20,
+      "target_banana_deliveries": 20,
+      "data_quality": 71,
+      "data_quality_target": 62
+    },
+    {
+      "date": "25-Sep-2017",
+      "customer_satisfaction": 5,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "ok",
+      "banana_deliveries": 21,
+      "target_banana_deliveries": 20,
+      "data_quality": 73,
+      "data_quality_target": 63
+    },
+    {
+      "date": "02-Oct-2017",
+      "customer_satisfaction": 4.6,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "ok",
+      "banana_deliveries": 13,
+      "target_banana_deliveries": 20,
+      "data_quality": 48,
+      "data_quality_target": 64
+    },
+    {
+      "date": "09-Oct-2017",
+      "customer_satisfaction": 4.5,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "good",
+      "banana_deliveries": 19,
+      "target_banana_deliveries": 20,
+      "data_quality": 62,
+      "data_quality_target": 65
+    },
+    {
+      "date": "16-Oct-2017",
+      "customer_satisfaction": 4.1,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "excellent",
+      "banana_deliveries": 27,
+      "target_banana_deliveries": 20,
+      "data_quality": 68,
+      "data_quality_target": 66
+    },
+    {
+      "date": "23-Oct-2017",
+      "customer_satisfaction": 4.2,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "ok",
+      "banana_deliveries": 22,
+      "target_banana_deliveries": 20,
+      "data_quality": 73,
+      "data_quality_target": 67
+    },
+    {
+      "date": "30-Oct-2017",
+      "customer_satisfaction": 4.6,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "good",
+      "banana_deliveries": 17,
+      "target_banana_deliveries": 20,
+      "data_quality": 72,
+      "data_quality_target": 68
+    },
+    {
+      "date": "06-Nov-2017",
+      "customer_satisfaction": 4.7,
+      "cust_satisfaction_target": 4.5,
+      "banana_taste": "excellent",
+      "banana_deliveries": 12,
+      "target_banana_deliveries": 20,
+      "data_quality": 72,
+      "data_quality_target": 69
+    }
+  ]
+}
